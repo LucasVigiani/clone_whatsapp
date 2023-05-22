@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/ecf2663f70.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="toolbar-container">
+                <img class="user-photo" src="img/avatar1.png">
+                <div class="auxicons-toolbar-container">
+                    <i class="fas fa-spinner"></i>
+                    <i class="fas fa-comment-alt"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+            </div>
+            <div class="notification-container">
+                <i class="fas fa-bell-slash"></i>
+                <p class="receive-notification">Receba notificações de novas mensagens</p>
+                <p class="active-notification">Ativar notificações na área de trabalho <i class="fas fa-angle-right"></i></p>
+            </div>
+            <div class="search-container">
+                <i id="contact-search" class="fas fa-search"></i>
+                <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+            </div>
+            <div class="contact-container">
+                <div class="contact-box active-chat">
+                    <img class="user-photo" src="img/avatar2.png">
+                    <div class="user-info">
+                        <p class="user-name">Jania Terezinha</p>
+                        <p class="user-messagepreview"><i class="fas fa-check-double"></i>Fica com Deus, Amo Vc</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">23:07</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar3.png">
+                    <div class="user-info">
+                        <p class="user-name">Daniel Vigiani</p>
+                        <p class="user-messagepreview">Viu a parada que te marquei?</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">13:59</p>
+                        <p class="message-pending">2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar4.png">
+                    <div class="user-info">
+                        <p class="user-name">Maria (Trabalho)</p>
+                        <p class="user-messagepreview">O projeto ficou excelente, agradeço!</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">08:47</p>
+                        <p class="message-pending">4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar5.png">
+                    <div class="user-info">
+                        <p class="user-name">Matheus Vigiani</p>
+                        <p class="user-messagepreview">Viu Mengão ganhou mais uma kkkkk</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">21:53</p>
+                        <p class="message-pending">4</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-box">
+                    <img class="user-photo" src="img/avatar6.png">
+                    <div class="user-info">
+                        <p class="user-name">Mãe</p>
+                        <p class="user-messagepreview">Bom trabalho, volta bem pra casa.</p>
+                    </div>
+                    <div class="message-info">
+                        <p class="message-time">07:00</p>
+                        <p class="message-pending">1</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main class="chat-container">
+            <nav class="chat-navbar">
+				<div class="contactinfo-container">
+					<img class="user-photo" src="img/avatar2.png">
+					<p class="user-name">Jania Terezinha</p>
+				</div>
+				<ul class="chattools-container">
+					<li><i class="fas fa-search"></i></li>
+					<li><i class="fas fa-paperclip"></i></li>
+					<li><i class="fas fa-ellipsis-v"></i></li>
+				</ul>
+			</nav>
+			<div class="messages-container">
+				<div class="bg-image"></div>
+				<div class="chat-messages">
+					<p class="guest-message">Fica com Deus, Amo Vc  <i class="fas fa-heart"></i></p>
+					<p class="user-message">Acabei as aulas, descansar agora, dorme com Deus amor bjin bjin <i class="fa-regular fa-heart"></i></p>
+				</div>
+			</div>
+			<div class="sendmessage-container">
+				<i class="far fa-grin"></i>
+				<input id="chatmessage" type="text" name="message" class="userinput" placeholder="Digite uma mensagem">
+				<i class="fas fa-microphone"></i>
+			</div>
+        </main>
+    </div>
+</body>
+</html>
